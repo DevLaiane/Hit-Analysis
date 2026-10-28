@@ -20,8 +20,6 @@ O script espera que os arquivos CSV estejam em uma pasta específica e sigam uma
     *   *Coluna 1:* `pref-frac-hit`
     *   *Coluna 2:* `adj-mvs-pctg`
 
-> **Nota sobre os dados:** Conforme as anotações de projeto, a métrica `avg-frac-hit` não está presente nos arquivos de log atuais. O script atual lê todas as linhas disponíveis do CSV, incluindo a última linha.
-
 ## Funcionalidades
 
 *   **Leitura e Parsing:** Varre a pasta de logs, extrai o nome do vídeo e o QP a partir do nome do arquivo e lê as métricas do CSV.
